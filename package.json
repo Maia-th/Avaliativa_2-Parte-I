@@ -1,0 +1,23 @@
+{
+  "name": "trab2-express",
+  "version": "1.0.0",
+  "description": "Trabalho 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thiago Maia",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
