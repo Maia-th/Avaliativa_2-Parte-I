@@ -127,6 +127,4 @@ app.put("/Lista/:id", (req, res) => {
   }
 });
 
-app.listen(config.port, () =>
-  console.log("Servidor funcionando na porta " + config.port)
-);
+app.listen(process.env.PORT || 8081);
